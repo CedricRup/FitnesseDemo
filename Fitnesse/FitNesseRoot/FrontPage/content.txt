@@ -1,0 +1,5 @@
+Welcome to this Fitnesse / FitSharp tutorial
+
+!1 Please go to SantaInc page !
+
+!note Release ${FITNESSE_VERSION}

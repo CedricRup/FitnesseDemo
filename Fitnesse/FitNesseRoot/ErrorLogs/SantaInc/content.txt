@@ -1,0 +1,7 @@
+!3 !-fit:C:\Cedric\Projects\Octo\FitnesseTutorial\Fitnesse\fitSharp\Runner.exe-!
+|'''Date: '''| 11:27:34 AM (CEST) on mercredi, août 21, 2013 |
+|'''Test Page: '''|.SantaInc|
+|'''Command: '''| !-C:\Cedric\Projects\Octo\FitnesseTutorial\Fitnesse\fitSharp\Runner.exe -r fitnesse.fitserver.FitServer,C:\Cedric\Projects\Octo\FitnesseTutorial\Fitnesse\fitsharp\fit.dll C:\Cedric\Projects\Octo\FitnesseTutorial\SantaInc\Santa.Acceptance.Tests\bin\Debug\Santa.Acceptance.Tests.dll OCTO-CRU 18000 3-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.537 seconds |
+
