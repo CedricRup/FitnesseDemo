@@ -11,16 +11,16 @@ namespace Santa.Acceptance.Tests
     {
         public List<Deed> deeds = new List<Deed>(); 
 
-        public bool KidDidWitchIsByAFactorOfOnDate(string title, Kind kind, int factor, DateTime date)
+        public bool KidDidWhichIsByAFactorOfOnDate(string title, Kind kind, int factor, DateTime date)
         {
             deeds.Add(new Deed { Title = title, Kind = kind, Force = factor, Date = date });
             return true;
         }
 
-        public bool KindnessFactorForIs(int year, int score)
+        public int kindnessfactorfor(int year)
         {
-            int result = KindnessCalculator.Calculate(deeds);
-            return result == score;
+            int result = KindnessCalculator.Calculate(deeds, year);
+            return result;
         }
     }
 }

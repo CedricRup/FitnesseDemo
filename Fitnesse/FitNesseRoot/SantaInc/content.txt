@@ -1,17 +1,8 @@
-!define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer,C:\Cedric\Projects\Octo\FitnesseTutorial\Fitnesse\fitsharp\fit.dll %p}
-!define TEST_RUNNER {C:\Cedric\Projects\Octo\FitnesseTutorial\Fitnesse\fitSharp\Runner.exe}
-!path C:\Cedric\Projects\Octo\FitnesseTutorial\SantaInc\Santa.Acceptance.Tests\bin\Debug\Santa.Acceptance.Tests.dll
+!1 SantaInc
+We deliver gifts faster than Superman
 
-| Import |
-| Santa.Acceptance.Tests |
-| fitSharp.Fit.Fixtures |
+http://files/supersanta.jpg
+
+Nous pensons que chaque enfant sage mérite un cadeau sous son sapin le jour de Noel. Afin de soulager les elfes et de faciliter le travail le jour J et parce que la magie seule ne suffit pas toujours, nous concevons un système d'information perfermant et scalable.
 
 !contents -R2 -g -p -f -h
-
-
-|Calculate Kindness Factor|
-|Kid did|Helped GrandMa to cross the street|witch is|Good |by a factor of| 3|on date|2012-01-21|
-|Kid did|Gave a moo box to a consultant|witch is|Good|by a factor of|1|on date|2012-02-08|
-|Kid did|Set the dog on fire|witch is|Bad |by a factor of|10|on date|2012-08-17|
-|Kid did|But it was a poodle |witch is|Good  |by a factor of| 1|on date|2012-08-17|
-|Kindness factor for|2012|is|-5|

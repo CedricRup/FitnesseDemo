@@ -1,0 +1,7 @@
+!define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer,C:\Cedric\Projects\Octo\FitnesseTutorial\Fitnesse\fitsharp\fit.dll %p}
+!define TEST_RUNNER {C:\Cedric\Projects\Octo\FitnesseTutorial\Fitnesse\fitSharp\Runner.exe}
+!path C:\Cedric\Projects\Octo\FitnesseTutorial\SantaInc\Santa.Acceptance.Tests\bin\Debug\Santa.Acceptance.Tests.dll
+
+| Import |
+| Santa.Acceptance.Tests |
+| fitSharp.Fit.Fixtures |
